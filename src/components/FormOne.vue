@@ -1,6 +1,6 @@
 <template>
     <div>
-        <form-helper>
+        <formHelper>
             <div slot="form-header">
                 <h3>Form One - Contact Us</h3>
                 <p>Fill in this form to contact us</p>
@@ -13,7 +13,7 @@
             <div slot="form-controls">
                 <button v-on:click="handleSubmit">Send</button>
             </div>
-        </form-helper>
+        </formHelper>
     </div>
 </template>
 
@@ -23,7 +23,7 @@ import FormHelper from './FormHelper.vue'
 
 export default {
     components: {
-        'form-helper': FormHelper
+        'formHelper': FormHelper
     },
     data () {
         return {

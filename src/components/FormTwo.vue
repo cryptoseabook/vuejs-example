@@ -1,6 +1,6 @@
 <template>
     <div>
-        <form-helper>
+        <formHelper>
             <div slot="form-header">
                 <h3>Form Two - Log In</h3>
                 <p>Enter your details to log-in</p>
@@ -12,17 +12,17 @@
             <div slot="form-controls">
                 <button v-on:click="handleSubmit">Login</button>
             </div>
-        </form-helper>
+        </formHelper>
     </div>
 </template>
 
 <script>
 // Imports
-import FormHelper from './formHelper.vue'
+import FormHelper from './FormHelper.vue'
 
 export default {
     components: {
-        'form-helper': FormHelper
+        'formHelper': FormHelper
     },
     data () {
         return {
