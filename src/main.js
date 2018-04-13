@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
+import App2 from './App2.vue'
 
 //import Ninja from './Ninja.vue'
 
@@ -9,5 +10,5 @@ export const bus = new Vue();
 
 new Vue({
   el: '#app',
-  render: h => h(App)
+  render: h => h(App2)
 })
